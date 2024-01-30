@@ -1,0 +1,20 @@
+{
+    "name": "beatr/php-base",
+    "description": "php-profissional",
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beatriz Siqueira",
+            "email": "beatrizsiqueiracosta2001@hotmail.com"
+        }
+    ],
+    "require": {}
+}
