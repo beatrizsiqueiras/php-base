@@ -6,8 +6,9 @@ class Home
 {
     public function index($params)
     {
-        echo 'oi, vc está na classe Home';
-        var_dump($params);
-        die();
+        return [
+            "view" => 'home.php',
+            "data" => ['name' => 'Beatriz']
+        ];
     }
 }
