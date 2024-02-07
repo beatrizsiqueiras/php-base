@@ -8,7 +8,7 @@ class User
     {
         echo 'oi, vc está na classe User no método Index';
         var_dump($params);
-    die();
+        die();
     }
 
     public function show($params)
